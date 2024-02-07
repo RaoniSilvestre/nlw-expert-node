@@ -1,15 +1,14 @@
 import fastify from 'fastify'
+import { createPoll } from './routes/create-poll'
 
 const app = fastify()
+
+app.register(createPoll)
 
 app.get('/', ()=>{
   return "Hello NLW"
 })
 
-app.post('/polls', (req)=>{
-  console.log(req)
-  return "sexooo"
-})
 
 
 app.listen({ port: 3333}).then(() => {

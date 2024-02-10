@@ -5,7 +5,7 @@ import { z } from 'zod'
 
 export async function deletePolls(app: FastifyInstance) {
 
-  app.post('/polls/d', async (req, res) => {
+  app.delete('/polls/d', async (req, res) => {
     
     await prisma.vote.deleteMany()
     await prisma.pollOption.deleteMany()

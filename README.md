@@ -2,7 +2,7 @@
 
 Este é um projeto backend em Node.js desenvolvido como parte do evento Next Level Week (NLW) Expert.
 
-##Descrição
+## Descrição
 
 Este projeto consiste em uma aplicação para criar enquetes com funcionalidades de validação e interação em tempo real.
 ## Instalação

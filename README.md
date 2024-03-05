@@ -1,6 +1,6 @@
 # NLW Expert Node
 
-Este é um projeto backend em Node.js desenvolvido como parte do evento Next Level Week (NLW) Expert.
+Este é um projeto backend em Node.js desenvolvido como parte do evento Next Level Week (NLW) Expert, promovido pela RocketSeat.
 
 ## Descrição
 
